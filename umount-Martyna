@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo umount /mnt/martyna-c
+sudo umount /mnt/martyna-e
