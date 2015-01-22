@@ -1,10 +1,5 @@
 #!/bin/bash
-cd /home/skramer/.dotfiles
-git pull
-cd /home/skramer/scripts
-git pull
-cd /home/skramer/c_test
-git pull
-cd /home/skramer/tips
-git pull
-
+while read F; do
+    cd $F
+    git pull
+done </home/skramer/scripts/git-repos
