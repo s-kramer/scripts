@@ -24,7 +24,7 @@ in_array executable_dirs "$PWD"
 
 # if not found
 if [[ $? -eq 1 ]]; then
-    reload-git-ignore.sh
+    update-git-ignore.sh
 fi
 
 git add .
