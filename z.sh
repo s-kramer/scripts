@@ -1,0 +1,1 @@
+/home/skramer/sd/z/z.sh
