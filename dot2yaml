@@ -1,0 +1,12 @@
+#!/usr/bin/python
+import sys
+
+
+def main():
+    key, value = sys.argv[1].split('=')
+    yaml = [idx * 2 * ' ' + v + ':' for idx, v in enumerate(key.split('.'))]
+    yaml[-1] = yaml[-1] + ' ' + value
+    print '\n'.join(yaml)
+
+if __name__ == "__main__":
+    main()
