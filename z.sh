@@ -1,1 +1,1 @@
-/home/skramer/sd/z/z.sh
+z/z.sh
