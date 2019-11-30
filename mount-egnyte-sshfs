@@ -1,0 +1,9 @@
+#!/bin/sh
+MOUNT_TARGET=/mnt/sshfs
+SFTP_PORT=22
+LOGIN='gr4jp3r$gr4jp3r'
+DOMAIN=ftp-gr4jp3r.egnyte.com
+REMOTE_MOUNT_POINT=/Shared
+
+sudo sshfs -o allow_other -p $SFTP_PORT $LOGIN@$DOMAIN:$REMOTE_MOUNT_POINT $MOUNT_TARGET
+
